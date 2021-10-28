@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(1, 8, 71);
+}
+h1 {
+    margin: 100px;
+    text-align: center;
+    color: rgb(243, 208, 162);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.5rem;
+}
+.main {
+    margin-bottom: 300px;
+}
+.box {
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 50px;
+}
+#red {
+    position: relative;
+    left: 500px;
+    display: inline-block;
+    background-color: green;
+}
+#blue {
+    position: relative;
+    left: 570px;
+    display: inline-block;
+    background-color: red;
+}
+#green {
+    display: inline-block;
+    position: relative;
+    top: 250px;
+    left: 45px;
+    background-color: yellow;
+}
+#yellow {
+    display: inline-block;
+    position: relative;
+    left: 120px;
+    top: 250px;
+    background-color: blue;
+}
+.blink {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
